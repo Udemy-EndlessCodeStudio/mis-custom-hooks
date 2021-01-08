@@ -1,3 +1,8 @@
-# Notas
+# useFetch
 
-Este repo contiene hooks del curso de React de Udemy.
+Ejemplo:
+
+```
+const url = 'endpoint de una API';
+const {data: null, loading: true, error: null} = useFetch(url);
+```
